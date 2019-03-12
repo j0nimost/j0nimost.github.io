@@ -26,6 +26,7 @@ body {
     margin-left: 43.5%;
     margin-right: 0px !important;
     right: 0 !important;
+    position: absolute;
 }
 
 .container #profile #img-profile #profile-details {
@@ -66,4 +67,17 @@ body {
 .container #profile #img-profile #links li a i {
     font-size: 22px;
     color: black;
+}
+
+.container #portfolio, .container #about {
+    margin-bottom: 25px;
+}
+
+.container #details #about div, .container #details #portfolio div{
+    margin-bottom: 15px;
+}
+
+.container #details #about div, .container #details #portfolio div ul li {
+    margin-bottom: 15px ;
+    margin-top: 5px;
 }
